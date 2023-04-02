@@ -42,6 +42,10 @@ input:hover, input:focus {
   padding: 140px 0px;
 }
 
+.section_padding_new {
+  padding: 40px 0px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 18, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
   .section_padding {
@@ -106,6 +110,10 @@ input:hover, input:focus {
 /* line 48, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
 .padding_top {
   padding-top: 140px;
+}
+
+.padding_top_new {
+  padding-top: 70px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
