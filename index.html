@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- animate CSS -->
     <link rel="stylesheet" href="css/animate.css">
+    <!-- modal popup CSS -->
+    <link rel="stylesheet" href="css/modalpopup.css">
     <!-- owl carousel CSS -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- themify CSS -->
@@ -449,7 +451,17 @@
                                         onfocus="this.placeholder = ''"
                                         onblur="this.placeholder = 'Enter email address'">
                                     <div class="input-group-append">
-                                        <button class="btn btn_1" type="button"><i class="ti-angle-right"></i></button>
+                                        <a href="#popup1"><button class="btn btn_1" type="button"><i class="ti-angle-right"></i></button></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="popup1" class="overlay">
+                                <div class="popup">
+                                    <h2>Subscribed !!</h2>
+                                    <a class="close" href="#">&times;</a>
+                                    <div class="content">
+                                        You've been successfully subscribed to the weekly tech newsletter.
                                     </div>
                                 </div>
                             </div>
