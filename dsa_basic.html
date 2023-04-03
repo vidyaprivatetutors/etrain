@@ -250,6 +250,13 @@
 
                 <script>
                     function toggleText(divid) {
+                        const cs = ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9", "c10", "c11", "c12"];
+
+                        for (let i = 0; i < cs.length; i++) {
+                            var text = document.getElementById(cs[i]);
+                            text.style.display = "none";
+                        }
+
                         var text = document.getElementById(divid);
                         if (text.style.display === "none") {
                           text.style.display = "block";
